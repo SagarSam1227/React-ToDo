@@ -1,0 +1,149 @@
+h1{
+    color: red;
+}
+
+body{
+    background: url("https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+.add-task{
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+    height: 50px;
+    font-size: large;
+    padding-right: 336px;
+    border-radius: 7px;
+    border: none;
+    color: #000000b0;
+    background: #ffffff47;
+    border: solid;
+    border-width: thin;
+    border-color: aliceblue;
+   
+    
+
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.558);
+    opacity: 1;
+  }
+
+  .add-icon{
+    margin-top: 57px;
+    width: 35px;
+    position: absolute;
+    margin-left: -52px;
+  }
+
+  .list-task{
+    text-align: -webkit-center;
+  }
+
+  .list-task > div{
+
+    margin-top: 4px;
+    height: 50px;
+    width: 564px;
+    font-size: large;
+    /* padding-right: 380px; */
+    border-radius: 7px;
+    border: none;
+    color: #414141;
+    background: #ffffffbf;
+  }
+
+  .list-task > div > h4{
+    margin-top: 4px;
+    padding-top: 13px;
+    font-weight: 500;
+    font-family: math;
+  }
+
+  .completed{
+    margin-top: 4px;
+    height: 38px;
+    margin-left: -418px;
+    width: 143px;
+    font-size: large;
+    border-radius: 7px;
+    border: none;
+    color: #000000b0;
+    background: #ffffff47;
+    margin-top: 4px;
+    padding-top: 2px;
+    font-weight: 500;
+    font-family: math;
+    margin-bottom: 10px;
+    border: solid;
+    border-width: thin;
+    border-color: aliceblue;
+  }
+
+  .arrow{
+    position: absolute;
+    width: 14px;
+    margin-left: -411px;
+    margin-top: 16px;
+  }
+
+  .completed-task{
+    text-align: -webkit-center;
+  }
+
+  .completed-task > div > h4{
+    margin-top: 4px;
+    padding-top: 13px;
+    font-weight: 500;
+    font-family: math;
+  }
+
+  .completed-task > div{
+
+    margin-top: 4px;
+    height: 50px;
+    width: 564px;
+    font-size: large;
+    /* padding-right: 380px; */
+    border-radius: 7px;
+    border: none;
+    color: #ffffffc7;
+    background: #0000008c;
+  }
+
+  .complete-main{
+    margin-top: 10px;
+  }
+
+  .task{
+    display: flex;
+  }
+
+  .checkbox{
+    width: 21px;
+    height: fit-content;
+    padding-top: 16px;
+    padding-inline: 15px;
+  }
+
+  .completed:active{
+    background: #ffffff29;
+    width: 141px;
+    height: 37px;
+
+  }
+
+  .delete-icon{
+  position: absolute;
+  width: 31px;
+  padding-top: 9px;
+  margin-right: 63px;
+  padding-right: -28px;
+  margin-left: 520px;
+  }
